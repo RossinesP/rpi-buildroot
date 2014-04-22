@@ -1,5 +1,5 @@
 config BR2_PACKAGE_PYTHON_RPIGPIO
 	bool "python-rpigpio"
-	depends on BR2_PACKAGE_PYTHON3
+	depends on BR2_PACKAGE_PYTHON
 	help
 	python-rpigpio is a Python library to access rpi's gpio
